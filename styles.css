@@ -1,0 +1,54 @@
+body {
+  background-color: aliceblue;
+}
+nav {
+  position: relative;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 16px;
+}
+
+ion-icon {
+  font-size: 24px;
+  padding: 16px;
+  background-color: lightgreen;
+}
+ion-icon:hover {
+  background-color: lightskyblue;
+}
+
+.close-nav {
+  display: none;
+}
+.open-nav {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  nav ul {
+    /* display: none; */
+    position: absolute;
+    background-color: lightgray;
+    z-index: 2;
+    top: 40px;
+    width: 200px;
+  }
+  .open-nav {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    margin: 16px;
+  }
+  .hidden {
+    left: -300px;
+  }
+  .opened {
+    display: block;
+  }
+  .closed {
+    display: none;
+  }
+}
