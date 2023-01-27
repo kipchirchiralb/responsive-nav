@@ -38,13 +38,7 @@ ion-icon:hover {
   .open-nav {
     display: block;
   }
-  nav ul li {
-    display: block;
-    margin: 16px;
-  }
-  .hidden {
-    left: -300px;
-  }
+ 
   .opened {
     display: block;
   }
